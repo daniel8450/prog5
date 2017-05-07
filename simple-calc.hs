@@ -8,7 +8,7 @@ let r2 = 0
 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-r1 = read inputIt :: Int
+let r1 = read inputIt :: Int
 
 if op /= "=" then
                 putStrLn "Enter the next term:"
