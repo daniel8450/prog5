@@ -14,9 +14,12 @@ let r1 = read inputIt :: Int
 putStrLn "Enter the next term:"
 inputIt <- getLine
 if (inputIt) == "+" then let op = "+"
-                    else if inputIt == "-" then let op = "-"
-                    else if inputIt == "*" then let op = "*"
-                    else if inputIt == "/" then let op = "/"
+                    else 
+                      if inputIt == "-" then let op = "-" else print ("invalid op")
+                    else 
+                      if inputIt == "*" then let op = "*" else print ("invalid op")
+                    else 
+                      if inputIt == "/" then let op = "/" else print ("invalid op")
                     else
                       putStrLn "Enter the next term:"
                       inputIt <- getLine
