@@ -38,7 +38,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-if (read inputIt) == Int then print ("OKTHEN1")
+if read inputIt == Int then print ("OKTHEN1")
 --else       
 --putStrLn "Enter the next term:"
 --inputIt <- getLine
