@@ -20,7 +20,7 @@ type Store = [(C, Val)]
 
 eval :: Exp -> Store -> Val
 eval (C n) x           = n
-eval (V n) x           = n
+eval (Op n) x           = n
 
 eval (exp1 :+: exp2) x = eval exp1 x + eval exp2 x
 eval (exp1 :-: exp2) x = eval exp1 x - eval exp2 x
@@ -37,7 +37,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-if read inputIt == Int then print ("OKTHEN1")
+if read inputIt == C then print ("OKTHEN1")
                        else print ("notOK")
 --else       
 --putStrLn "Enter the next term:"
