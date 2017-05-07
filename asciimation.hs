@@ -43,27 +43,25 @@ frameOne = do
     redLine
   --two  
     red
-    putStr "&&&&&"
+    putStr "&"
     blue 
     putStr "OO"
     red
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --three
-    red
-    putStr "&&&&"
     blue 
     putStr "OOOO"
     red
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --four
     red
-    putStr "&&&&&"
+    putStr "&"
     blue 
     putStr "OO"
     red
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --five
     redLine
@@ -72,7 +70,7 @@ frameOne = do
 --seven
     redLine
 --eight
-   
+   redLine
 
 
 
