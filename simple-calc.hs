@@ -1,10 +1,6 @@
 import Data.Function
 import Data.List
 
-
-add :: Int -> Int
-add x y = x + y
-
 main = do
 let r1 = 0
 let op = "/"
