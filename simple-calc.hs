@@ -16,10 +16,9 @@ data Exp
   | C :*: C
   | C :/: C
   
-type Val = Int
-type Store = [(C, Val)]
 
-eval :: Exp -> Store -> Val
+
+eval :: Exp -> Exp -> Int
 eval (C n) x           = n
 eval (Op n) x           = n
 
