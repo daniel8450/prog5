@@ -4,7 +4,7 @@ import Data.List
 
 
 
-op ::= * | + | - | /
+data op = * | + | - | / 
 
 main = do
 let x = 0
