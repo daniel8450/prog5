@@ -50,13 +50,15 @@ frameOne = do
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --three
-    putStr "&&&&&&"
+    red
+    putStr "&&&&&"
     blue 
     putStr "OOO"
     red
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --four
+    red
     putStr "&&&&&"
     blue 
     putStr "OO"
