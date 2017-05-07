@@ -122,9 +122,9 @@ loop = do
     screenSet
     frameOne
     pause
-   -- screenSet
-  -- frameTwo
-   -- pause
+    screenSet
+    frameTwo
+    pause
    -- screenSet
    -- frameThree
   --  pause
