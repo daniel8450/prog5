@@ -34,7 +34,7 @@ redLine = do
     
 pause :: IO ()
 pause = do
-    threadDelay 70000
+    threadDelay 100000
 
     
 frameOne :: IO ()
