@@ -1,32 +1,10 @@
 import Data.Function
 import Data.List
 
-type C = Int
-type Op = Char
-
-infixl 6 :+:, :-:
-infixl 7 :*:, :/:
-
---infix 1 :=
-data Exp
-  = C Int
-  | Op Char
-  | Exp :+: Exp
-  | Exp :-: Exp
-  | Exp :*: Exp
-  | Exp :/: Exp
-  
 
 
-eval :: Exp -> Exp -> Int
-eval (C n) x           = n
 
-eval (exp1 :+: exp2) x = eval exp1 x + eval exp2 x
-eval (exp1 :-: exp2) x = eval exp1 x - eval exp2 x
-eval (exp1 :*: exp2) x = eval exp1 x * eval exp2 x 
-eval (exp1 :/: exp2) x = eval exp1 x `div` eval exp2 x
-
-
+op ::= * | + | - | /
 
 main = do
 let x = 0
@@ -36,7 +14,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-if (read inputIt) == :*: then print ("OKTHEN1")
+if (read inputIt) == op then print ("OKTHEN1")
                        else print ("notOK")
 --else       
 --putStrLn "Enter the next term:"
