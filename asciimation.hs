@@ -765,5 +765,6 @@ loop = do
     screenSet
     frameSixteen
     pause
+    loop
 
 main = loop
