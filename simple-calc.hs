@@ -13,5 +13,6 @@ print (r1)
 putStrLn "Enter the next term:"
 inputIt <- getLine
 if (inputIt) == "+" then print ("plus")
+                    else print ("NO")
 
 
