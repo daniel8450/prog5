@@ -21,5 +21,5 @@ inPUT = do
      
      
      
- main = do
-        inPUT
+ main = inPUT
+        
