@@ -1,4 +1,4 @@
-pot :: IO() -> IO()
+pot :: IO()
 pot = do
       putStrLn "Enter the first term:"
       inputIt <- getLine
