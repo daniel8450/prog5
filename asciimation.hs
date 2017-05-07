@@ -732,7 +732,7 @@ loop = do
     screenSet
     frameFive
     pause
-    screenSet--
+    screenSet
     frameSix
     pause
     screenSet
@@ -764,9 +764,6 @@ loop = do
     pause
     screenSet
     frameSixteen
+    pause
 
-    
-
-    
-  
 main = loop
