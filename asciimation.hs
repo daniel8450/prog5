@@ -504,7 +504,11 @@ frameEleven = do
 frameTwelve :: IO ()
 frameTwelve = do
    --one
-    
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
     
 
   --two  
@@ -532,11 +536,7 @@ frameTwelve = do
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop      
 --five
-    redLine
-    redLine
-    redLine
-    redLine
-    redLine
+   
 --six
 
 --seven
@@ -637,6 +637,7 @@ frameFifteen = do
    --one
     redLine
     redLine
+    redLine
    
     
   --two  
@@ -664,7 +665,6 @@ frameFifteen = do
     putStrLn "&&&&&&&&&&&&&&&&&"
     stop      
 --five
-    redLine
     redLine
     redLine
 
