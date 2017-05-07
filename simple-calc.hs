@@ -37,8 +37,8 @@ let r2 = 0
 if x == 0
   then do
     putStrLn "Enter the first term:"
-    let n = inputIt <- getLine
-    if n == Int then print ("OKTHEN1")
+    inputIt <- getLine
+    if (read inputIt) == Int then print ("OKTHEN1")
     x = 1
   else putStrLn "Enter the next term:"
     if n == Int then print ("OKTHEN1")
