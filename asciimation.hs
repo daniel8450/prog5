@@ -762,9 +762,7 @@ loop = do
     screenSet
     frameSixteen
     pause
-    screenSet
-    frameSeventeen
-    pause
+
     
 
     
