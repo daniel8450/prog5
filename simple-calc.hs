@@ -8,7 +8,6 @@ infixl 6 :+:, :-:
 infixl 7 :*:, :/:
 
 infix 1 :=
-
 data Exp
   = C Int
   | C :+: C
