@@ -4,7 +4,7 @@ import Data.List
 
 
 
-data Op = "*" | "+" | "-" | "/" 
+data Op = plus | minus | multiply | divide 
 
 main = do
 let x = 0
