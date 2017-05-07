@@ -17,7 +17,7 @@ if op /= "=" then do
                 putStrLn "Enter the next term:"
                 inputIt <- getLine
                 let r2 = read inputIt :: Int
-              else
+              else do
                 putStrLn "="
                 if op == "+" then print (r1+r2)
                              else putStrLn "ohno"
