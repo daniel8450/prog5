@@ -51,9 +51,9 @@ frameOne = do
     stop
 --three
     red
-    putStr "&&&&&"
+    putStr "&&&&"
     blue 
-    putStr "OOO"
+    putStr "OOOO"
     red
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
