@@ -12,10 +12,10 @@ let r1 = read inputIt :: Int
 
 if op /= "=" then
                 putStrLn "Enter the next term:"
-                let inputIt <- getLine
+                inputIt <- getLine
                 let op = inputIt
                 putStrLn "Enter the next term:"
-                let inputIt <- getLine
+                inputIt <- getLine
                 let r2 = read inputIt :: Int
               else
                 putStrLn "="
