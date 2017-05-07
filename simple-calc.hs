@@ -2,9 +2,7 @@ import Data.Function
 import Data.List
 
 
-
-
-data Op = "+" | "-" | "*" | "/" 
+type C = Int
 
 main = do
 let x = 0
@@ -14,7 +12,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-if inputIt == Op then print ("OKTHEN1")
+if inputIt == C then print ("OKTHEN1")
                        else print ("notOK")
 --else       
 --putStrLn "Enter the next term:"
