@@ -17,6 +17,7 @@ if inCheck /= "="
      inputIt <- getLine
      if (inputIt) == "+" then print ("plus")
                        else print ("NO")
+      let result = 500
    else print result
      
 
