@@ -19,8 +19,7 @@ data Exp
 
 
 eval :: Exp -> Exp -> Int
-eval (Exp n) x           = n
-
+eval (C n) x           = n
 
 eval (exp1 :+: exp2) x = eval exp1 x + eval exp2 x
 eval (exp1 :-: exp2) x = eval exp1 x - eval exp2 x
