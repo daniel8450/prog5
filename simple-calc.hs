@@ -19,6 +19,7 @@ inputIt <- getLine
 let r2 = read inputIt :: Int
 
 if op == "+" then print (r1 + r2)
+             else print (no)
               
                       
                         
