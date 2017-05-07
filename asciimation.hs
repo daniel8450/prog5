@@ -14,17 +14,17 @@ screenSet = do
 blue :: IO ()
 blue = do
     setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    setSGR [SetColor Background Vivid Red]
     
 cyan :: IO ()
 cyan = do
     setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Blue]
+    setSGR [SetColor Background Vivid Red]
     
 red :: IO ()
 red = do
     setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Blue]
+    setSGR [SetColor Background Vivid Red]
     
 redLine :: IO ()
 redLine = do
