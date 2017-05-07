@@ -38,5 +38,5 @@ if x == 0
    then do putStrLn "Enter the first term:"
            inputIt <- getLine
            if (read inputIt) == Int then print ("OKTHEN1")
-   else    putStrLn "Enter the next term:"
+else       putStrLn "Enter the next term:"
            if n == Int then print ("OKTHEN1")
