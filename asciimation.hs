@@ -82,64 +82,26 @@ loop = do
     screenSet
     frameOne
     pause
-    screenSet
-    frameTwo
-    pause
-    screenSet
-    frameThree
-    pause
-    screenSet
-    frameFour
-    pause
-    screenSet
-    frameFive
-    pause
-    screenSet
-    frameSix
-    pause
-    screenSet
-    frameSeven
-    pause
-    screenSet
-    frameEight
-    pause
-    screenSet
-    frameNine
-    pause
-    screenSet
-    frameTen
-    pause
-    screenSet
-    frameEleven
-    pause
-    screenSet
-    frameTwelve
-    pause
-    screenSet
-    frameThirteen
-    pause
-    screenSet
-    frameFourteen
-    pause
-    screenSet
-    frameFifteen
-    pause
-    screenSet
-    frameSixteen
-    pause
-    screenSet
-    frameSeventeen
-    pause
-    screenSet
-    frameEighteen
-    pause
-    screenSet
-    frameNineteen
-    pause
-    screenSet
-    frameTwenty
-    pause
-    loop
+   -- screenSet
+  -- frameTwo
+   -- pause
+   -- screenSet
+   -- frameThree
+  --  pause
+  --  screenSet
+ --   frameFour
+ --   pause
+   -- screenSet
+   -- frameFive
+   -- pause
+  --  screenSet--
+    --frameSix
+    --pause
+    --screenSet
+    --frameSeven
+    --pause
+    
+
     
   
 main = loop
