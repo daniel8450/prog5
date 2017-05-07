@@ -1,5 +1,8 @@
-pot :: IO()
-pot = do
+
+
+
+inPUT :: IO()
+inPUT = do
       putStrLn "Enter the first term:"
       inputIt <- getLine
       let r1 = read inputIt :: Int
@@ -18,10 +21,9 @@ pot = do
                    else 
                     if op == "/" then print (r1 `div` r2) else print ("nothing")
 main = do
---let r1 = 0
---let op = "/"
---let r2 = 0
-pot
+inPUT
+let r = read inPUT :: Int
+print r
 
 
 
