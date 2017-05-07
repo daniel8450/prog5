@@ -4,7 +4,7 @@ import Data.List
 
 
 
-data Op = plus | minus | multiply | divide 
+--data Op = plus | minus | multiply | divide 
 
 main = do
 let x = 0
@@ -14,7 +14,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-if (read inputIt) == Op then print ("OKTHEN1")
+if (read inputIt) == plus then print ("OKTHEN1")
                        else print ("notOK")
 --else       
 --putStrLn "Enter the next term:"
