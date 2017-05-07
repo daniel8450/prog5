@@ -23,7 +23,7 @@ inPUT = do
                     
                     
 inPUTint :: IO() -> Int
-inPUTint x = read x :: Int
+inPUTint x = x
 
 main = do
 let r = inPUTint inPUT
