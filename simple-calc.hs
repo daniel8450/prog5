@@ -25,7 +25,7 @@ inputIt <- getLine
 r2 <- read inputIt :: Int
 
 if op == "+" then r <- r1+r2
-             else print ("no")
+             else print r
               
                       
                         
