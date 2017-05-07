@@ -16,11 +16,11 @@ let r2 = read inputIt :: Int
 putStrLn "="
 if op == "+" then print (r1+r2) 
              else 
-if op == "-" then print (r1-r2) 
+              if op == "-" then print (r1-r2) 
              else 
-if op == "*" then print (r1*r2) 
+              if op == "*" then print (r1*r2) 
              else 
-if op == "/" then print (r1 `div` r2)
+              if op == "/" then print (r1 `div` r2) else print ("nothing")
 
                         
            
