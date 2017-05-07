@@ -5,7 +5,7 @@ main = do
 let r1 = 0
 let op = "/"
 let r2 = 0
-let r = 0
+
 
 putStrLn "Enter the first term:"
 inputIt <- getLine
@@ -17,12 +17,11 @@ putStrLn "Enter the next term:"
 inputIt <- getLine
 let r2 = read inputIt :: Int
 
-if op == "+" then r
-               where r = r1+r2
+putStrLn "="
+if op == "+" then print (r1+r2)
              else putStrLn "ohno"
-              
-putStrLn "AHHH"
-print r
+
+
                         
            
 
