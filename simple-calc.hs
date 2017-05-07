@@ -1,5 +1,6 @@
 pot :: IO() -> IO() -> IO() -> IO()
-pot = putStrLn "Enter the first term:"
+pot = do
+      putStrLn "Enter the first term:"
       inputIt <- getLine
       let r1 = read inputIt :: Int
       putStrLn "Enter the next term:"
