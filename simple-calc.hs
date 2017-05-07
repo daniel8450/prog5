@@ -16,8 +16,8 @@ if inCheck /= "="
      putStrLn "Enter the next term:"
      inputIt <- getLine
      if (inputIt) == "+" then print ("plus")
-                       else print ("NO")
-      let result = 500
+                       else let result = 500
+                 
    else print result
      
 
