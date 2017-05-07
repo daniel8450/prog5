@@ -2,7 +2,7 @@ import Data.Function
 import Data.List
 
 type C = Int
-type Op = String
+type Op = Char
 
 infixl 6 :+:, :-:
 infixl 7 :*:, :/:
@@ -10,7 +10,7 @@ infixl 7 :*:, :/:
 --infix 1 :=
 data Exp
   = C Int
-  | Op String
+  | Op Char
   | Exp :+: Exp
   | Exp :-: Exp
   | Exp :*: Exp
