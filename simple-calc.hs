@@ -14,7 +14,7 @@ let r2 = 0
    --then do 
 putStrLn "Enter the first term:"
 inputIt <- getLine
-let n = read inputIt
+let n = read inputIt :: String
 if n == "+" then print ("OKTHEN1")
                        else print ("notOK")
 --else       
