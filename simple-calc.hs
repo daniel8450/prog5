@@ -18,8 +18,7 @@ if inCheck /= "="
      if (inputIt) == "+" then 
                             print ("plus")
                          else 
-                            let result = 500
-                 
+                            let result = 500              
     else 
       print result
      
