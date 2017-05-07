@@ -24,7 +24,7 @@ putStrLn "Enter the next term:"
 inputIt <- getLine
 let r2 = read inputIt :: Int
 
-if op == "+" then r <- r1+r2
+if op == "+" then let r = r1+r2
              else print r
               
                       
