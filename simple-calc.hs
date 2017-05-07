@@ -15,10 +15,13 @@ if inCheck /= "="
      let r1 = read inputIt :: Int
      putStrLn "Enter the next term:"
      inputIt <- getLine
-     if (inputIt) == "+" then print ("plus")
-                         else let result = 500
+     if (inputIt) == "+" then 
+                            print ("plus")
+                         else 
+                            let result = 500
                  
-    else print result
+    else 
+      print result
      
 
 
