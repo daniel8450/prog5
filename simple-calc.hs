@@ -8,7 +8,7 @@ let r1 = 0
 let r2 = 0
 let inCheck = "+"
 
-if inCheck != "=" 
+if inCheck /= "=" 
    then do
      putStrLn "Enter the first term:"
      inputIt <- getLine
