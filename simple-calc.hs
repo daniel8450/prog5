@@ -5,9 +5,6 @@ import Data.List
 add :: Int -> Int
 add x y = x + y
 
-subtact
-
-
 main = do
 let r1 = 0
 let op = "/"
