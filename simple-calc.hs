@@ -4,7 +4,7 @@ import Data.List
 
 
 
-data Op = '*' | '+' | '-' | '/' 
+data Op = "*" | "+" | "-" | "/" 
 
 main = do
 let x = 0
