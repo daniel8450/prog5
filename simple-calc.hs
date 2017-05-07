@@ -40,6 +40,6 @@ putStrLn "Enter the first term:"
 inputIt <- getLine
 if (read inputIt) == Int then print ("OKTHEN1")
 --else       
-putStrLn "Enter the next term:"
-inputIt <- getLine
-if (read inputIt) == Int then print ("OKTHENN2222")
+--putStrLn "Enter the next term:"
+--inputIt <- getLine
+--if (read inputIt) == Int then print ("OKTHENN2222")
