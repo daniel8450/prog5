@@ -2,9 +2,9 @@ import Data.Function
 import Data.List
 
 main = do
-r1 = 0
-op = "/"
-r2 = 0
+let r1 = 0
+let op = "/"
+let r2 = 0
 
 putStrLn "Enter the first term:"
 inputIt <- getLine
