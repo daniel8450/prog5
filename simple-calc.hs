@@ -12,7 +12,7 @@ if x == 0
      putStrLn "Enter the first term:"
      inputIt <- getLine
      let w = read inputIt :: Int
-     r1 = w
+     --r1 = w
      x = x + 1
      print (r1)
    else   
