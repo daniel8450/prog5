@@ -10,6 +10,7 @@ infixl 7 :*:, :/:
 --infix 1 :=
 data Exp
   = C Int
+  | Op String
   | C :+: C
   | C :-: C
   | C :*: C
