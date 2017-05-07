@@ -41,4 +41,5 @@ inputIt <- getLine
 if (read inputIt) == Int then print ("OKTHEN1")
 --else       
 putStrLn "Enter the next term:"
-if n == Int then print ("OKTHEN1")
+inputIt <- getLine
+if (read inputIt) == Int then print ("OKTHENN2222")
