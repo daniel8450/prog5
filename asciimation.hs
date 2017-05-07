@@ -631,8 +631,8 @@ frameFourteen = do
 
 
 -------------------------------------------------------------------------------------------
-frameSixteen :: IO ()
-framesixteen = do
+frameFifteen:: IO ()
+frameFifteen = do
    --one
     redLine
     redLine
@@ -758,6 +758,9 @@ loop = do
     pause
     screenSet
     frameFourteen
+    pause
+    screenSet
+    frameFifthteen
     pause
     screenSet
     frameSixteen
