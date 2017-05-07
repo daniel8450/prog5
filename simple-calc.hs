@@ -11,10 +11,10 @@ infixl 7 :*:, :/:
 data Exp
   = C Int
   | Op String
-  | C :+: C
-  | C :-: C
-  | C :*: C
-  | C :/: C
+  | Exp :+: Exp
+  | Exp :-: Exp
+  | Exp :*: Exp
+  | Exp :/: Exp
   
 
 
