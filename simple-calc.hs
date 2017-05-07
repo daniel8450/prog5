@@ -11,7 +11,7 @@ if (x == 0) then do
                 inputIt <- getLine
                 let r1 = read inputIt :: Int
                 let x = 1
-             else
+             else do
                 putStrLn "Enter the next term:"
                 inputIt <- getLine
                 let op = inputIt
