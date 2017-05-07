@@ -71,7 +71,44 @@ frameOne = do
     redLine
 --eight
     redLine
+-------------------------------------------------------------------------------------------
+frameTwo :: IO ()
+frameTwo = do
+ --one
+    redLine
+    redLine
+    redLine
+  --two  
+    red
+    putStr "&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+--six
+    redLine
+--seven
 
+--eight
 
 
 
