@@ -35,10 +35,10 @@ let x = 0
 let r1 = 0
 let r2 = 0
 if x == 0
-  then do
-    putStrLn "Enter the first term:"
-    inputIt <- getLine
-    if (read inputIt) == Int then print ("OKTHEN1")
-  else do
-    putStrLn "Enter the next term:"
-    if n == Int then print ("OKTHEN1")
+   then do
+     putStrLn "Enter the first term:"
+     inputIt <- getLine
+     if (read inputIt) == Int then print ("OKTHEN1")
+   else
+     putStrLn "Enter the next term:"
+     if n == Int then print ("OKTHEN1")
