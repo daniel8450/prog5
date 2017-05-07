@@ -110,13 +110,611 @@ frameTwo = do
 
 --eight
 
+-------------------------------------------------------------------------------------------
+frameThree :: IO ()
+frameThree = do
+ --one
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+  --two  
+    red
+    putStr "&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+
+--six
+
+--seven
+
+--eight
 
 
+-------------------------------------------------------------------------------------------
+frameFour :: IO ()
+frameFour = do
+ --one
+    redLine
+    redLine
+    redLine
 
 
+  --two  
+    red
+    putStr "&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
 
+--six
 
+--seven
+
+--eight
+    redLine
+    redLine
     
+    
+    
+-------------------------------------------------------------------------------------------
+frameFive :: IO ()
+frameFive = do
+ --one
+
+
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+
+--six
+
+--seven
+
+--eight
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+    
+    
+    
+-------------------------------------------------------------------------------------------
+frameSix :: IO ()
+frameSix = do
+ --one
+
+
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+
+--six
+
+--seven
+
+--eight
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+    
+-------------------------------------------------------------------------------------------
+frameSeven :: IO ()
+frameSeven = do
+   --one
+    redLine
+    redLine
+    redLine
+
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+
+--six
+
+--seven
+
+--eight
+    redLine
+    redLine
+    
+-------------------------------------------------------------------------------------------
+frameEight :: IO ()
+frameEight = do
+   --one
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+
+--six
+
+--seven
+
+--eight
+
+
+-------------------------------------------------------------------------------------------
+frameNine :: IO ()
+frameNine = do
+   --one
+    redLine
+    redLine
+    redLine
+
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+--six
+
+--seven
+
+--eight
+
+-------------------------------------------------------------------------------------------
+frameTen :: IO ()
+frameTen = do
+   --one
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+   
+--six
+
+--seven
+
+--eight
+
+-------------------------------------------------------------------------------------------
+frameEleven :: IO ()
+frameEleven = do
+   --one
+    redLine
+    redLine
+    redLine
+    
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+--six
+
+--seven
+
+--eight
+
+-------------------------------------------------------------------------------------------
+frameTwelve :: IO ()
+frameTwelve = do
+   --one
+    
+    
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+--six
+
+--seven
+
+--eight
+
+-------------------------------------------------------------------------------------------
+frameThirteen :: IO ()
+frameThirteen = do
+   --one
+    redLine
+    redLine
+    redLine
+    
+
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+
+--six
+
+--seven
+
+--eight
+
+
+-------------------------------------------------------------------------------------------
+frameFourteen :: IO ()
+frameFourteen = do
+   --one
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+    
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    
+
+--six
+
+--seven
+
+--eight
+
+
+-------------------------------------------------------------------------------------------
+frameSixteen :: IO ()
+framesixteen = do
+   --one
+    redLine
+    redLine
+   
+    
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+    redLine
+
+--six
+
+--seven
+
+--eight
+
+
+-------------------------------------------------------------------------------------------
+frameSixteen :: IO ()
+framesixteen = do
+   --one
+  --two  
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OOOO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    red
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    blue 
+    putStr "OO"
+    red
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
+
+--six
+
+--seven
+
+--eight
+
 loop :: IO ()
 loop = do
     screenSet
@@ -125,21 +723,48 @@ loop = do
     screenSet
     frameTwo
     pause
-   -- screenSet
-   -- frameThree
-  --  pause
-  --  screenSet
- --   frameFour
- --   pause
-   -- screenSet
-   -- frameFive
-   -- pause
-  --  screenSet--
-    --frameSix
-    --pause
-    --screenSet
-    --frameSeven
-    --pause
+    screenSet
+    frameThree
+    pause
+    screenSet
+    frameFour
+    pause
+    screenSet
+    frameFive
+    pause
+    screenSet--
+    frameSix
+    pause
+    screenSet
+    frameSeven
+    pause
+    screenSet
+    frameEight
+    pause
+    screenSet
+    frameNine
+    pause
+    screenSet
+    frameTen
+    pause
+    screenSet
+    frameEleven
+    pause
+    screenSet
+    frameTwelve
+    pause
+    screenSet
+    frameThirteen
+    pause
+    screenSet
+    frameFourteen
+    pause
+    screenSet
+    frameSixteen
+    pause
+    screenSet
+    frameSeventeen
+    pause
     
 
     
