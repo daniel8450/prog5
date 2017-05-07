@@ -419,11 +419,7 @@ frameNine = do
 frameTen :: IO ()
 frameTen = do
    --one
-    redLine
-    redLine
-    redLine
-    redLine
-    redLine
+
 
   --two  
     red
@@ -451,7 +447,12 @@ frameTen = do
     stop    
 --five
    
---six
+--six    
+    redLine
+    redLine
+    redLine
+    redLine
+    redLine
 
 --seven
 
